@@ -139,6 +139,16 @@ def main():
     print(ray_miss)
     print(ray_parallel)
 
+    """
+    TODO: do raycast between camera and base + all attachments 
+    add t
+    maybe get all hits and if there are many return the one that has the lowest t
+    then check if there is an attachment that has normal = -normal of an attachment on your new piece
+    also need to check what is the optimal attachment on my piece, probably just what fits with the best attachment point that was hit
+
+    add rotation support (doesnt really matter it should be free in real implementation) 
+    """
+
 
 
 main()
